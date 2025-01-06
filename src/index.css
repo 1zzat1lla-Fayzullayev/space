@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #000;
+}
+
+.hero_heading {
+  color: #f81818;
+  text-align: center;
+  font-size: 97.752px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 79.797px; /* 81.633% */
+  text-transform: uppercase;
+  color: #d1b67b;
+  text-align: center;
+  text-shadow: 0px 278.481px 77.975px rgba(77, 57, 86, 0.01),
+    0px 178.228px 70.886px rgba(77, 57, 86, 0.04),
+    0px 100.253px 59.747px rgba(77, 57, 86, 0.15),
+    0px 44.557px 44.557px rgba(77, 57, 86, 0.25),
+    0px 11.139px 24.304px rgba(77, 57, 86, 0.29);
+  font-size: 97.752px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 79.797px; /* 81.633% */
+  text-transform: uppercase;
+}
+
+.hero_p {
+  color: #fff;
+  text-align: center;
+  font-family: Finlandica;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+@font-face {
+  font-family: Druk Cyr;
+  src: url("/public/fonts/druk_cyr/DrukCyr-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: Druk Cyr;
+  src: url("/public/fonts/druk_cyr/DrukCyr-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
