@@ -1,12 +1,13 @@
 import Wrapper from "../layout/wrapper";
 import HeroGlassBlock from "../shared/hero/heroGlassBlock";
+import HeroYellowButton from "../shared/hero/heroYellowButton";
 
 function Hero() {
   return (
     <>
       <div className="">
         <Wrapper>
-          <div className="flex flex-col items-center justify-center ">
+          <div className="flex flex-col items-center justify-center mx-[30px] xl:mx-0">
             <h1 className="font-Bowlby hero_heading">Meme Space</h1>
             <p className="hero_p">Buy, Earn, Win on Meme SyperCycle</p>
             <img src="/hero_pic.png" alt="" />
@@ -27,6 +28,7 @@ function Hero() {
                 <HeroGlassBlock glassNum={"56"} />
               </div>
             </div>
+            <HeroYellowButton heroYellowBtnText={"BUY & EARN"}/>
           </div>
         </Wrapper>
       </div>
