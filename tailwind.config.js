@@ -7,9 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Finlandica: ["Finlandica", "serif"],
-        Bowlby: ["Bowlby One", "serif"],
-        DrukCyr: ["Druk Cyr", "serif"]
+        Apfel: ["Apfel", "serif"],
+        Neue: ["Neue", "serif"]
       }
     },
   },

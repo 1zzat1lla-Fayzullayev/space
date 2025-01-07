@@ -1,75 +1,40 @@
-/* eslint-disable react/prop-types */
-import Wrapper from "../layout/wrapper";
-import ButtonWhiteBorder from "../shared/navbar/buttonWhiteBorder";
-import ButtonYellowBorder from "../shared/navbar/buttonYellowBorder";
 
-function Navbar({handleOpenMenu}) {
-
+const Navbar = () => {
   return (
-    <>
-      <Wrapper>
-        <nav className="font-Finlandica flex items-center justify-between py-[65px] mx-[30px] xl:mx-0">
-          <img src="/logo.svg" alt="" />
-          <ul className="items-center gap-10 hidden md:flex">
-            <li>
-              <a
-                href="#"
-                className="text-[#FCAF54] text-[15px] font-[500] leading-[40px]"
-              >
-                ABOUT
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="text-[#FCAF54] text-[15px] font-[500] leading-[40px]"
-              >
-                AUDIT
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="text-[#FCAF54] text-[15px] font-[500] leading-[40px]"
-              >
-                TOKENOMICS
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="text-[#FCAF54] text-[15px] font-[500] leading-[40px]"
-              >
-                FEATURES
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="text-[#FCAF54] text-[15px] font-[500] leading-[40px]"
-              >
-                FAQS
-              </a>
-            </li>
-          </ul>
-          <div className="hidden md:block">
-            <ButtonYellowBorder yellowButtonText={"Get Started"} />
-          </div>
-          <div className="flex items-center gap-[10px] md:hidden">
-            <ButtonWhiteBorder whiteButtonText={"Get Started"} />
-            <div className="relative" onClick={handleOpenMenu}>
-              <img
-                src="/hamburger.png"
-                alt=""
-                className="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-[14px] m-auto"
-              />
-              <img src="/hamburger_bg.svg" alt="" />
+    <div className="site-header p-[1%2.5%1%2.5%] relative z-[100]">
+        <div className="content flex flex-row items-center justify-between">
+        <div className="lft p-[10px]">
+            <img src="https://crypteck.jwsuperthemes.com/wp-content/uploads/2022/07/Logo.svg" alt="logo" />
+        </div>
+        <div className="center-navs">
+            <div className="nav-links font-Apfel text-white flex flex-row gap-[10px]">
+            <p>Home</p>
+            <p>Buy</p>
+            <p>Earn</p>
+            <p>Marketplace</p>
+            <p>Tokenomics</p>
+            <p>Roadmap</p>
+            <div className="social men relative">
+            <p>Socials</p>
             </div>
-          </div>
-        </nav>
-      </Wrapper>
-    </>
-  );
+            <div className="social-drop absolute -top-40">
+                <p>X</p>
+                <p>Telegram</p>
+                <p>Chat</p>
+                <p>Medium</p>
+                <p>Youtube</p>
+                <p>Linkedin</p>
+            </div>
+            </div>
+          
+        </div>
+
+        <div className="end">
+            <button className="font-Neue text-white">Get Started</button>
+        </div>
+        </div>
+    </div>
+  )
 }
 
-export default Navbar;
+export default Navbar
