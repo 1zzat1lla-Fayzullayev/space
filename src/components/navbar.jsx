@@ -65,7 +65,7 @@ const Navbar = ({handleOpenMenu}) => {
             Get Started
           </button>
         </div>
-        <div className="flex flex-col gap-1" onClick={handleOpenMenu}>
+        <div className="flex-col gap-1 flex md:hidden" onClick={handleOpenMenu}>
           <div className="w-[30px] h-[2px] bg-white"></div>
           <div className="w-[30px] h-[2px] bg-white"></div>
           <div className="w-[30px] h-[2px] bg-white"></div>
