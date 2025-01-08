@@ -1,8 +1,9 @@
 import Wrapper from "../layout/wrapper";
+import GreenButton from "../shared/greenButton";
 
 const Hero = () => {
   return (
-    <section className="relative text-white py-10 h-full min-h-screen px-[30px] xl:px-0">
+    <section className="relative text-white py-10 h-full px-[30px] xl:px-0">
       <Wrapper>
         <div className="container mx-auto relative flex flex-col items-center">
           <div className="w-full flex justify-center mb-8">
@@ -38,12 +39,7 @@ const Hero = () => {
             </p>
           </div>
 
-          <a
-            href="/shop"
-            className="mt-6 bg-[#cbfb45] text-black text-[16px] py-[20px] px-[40px] font-[700] transition-all duration-300 font-Neue"
-          >
-            Get Started
-          </a>
+          <GreenButton buttonTitle={"Get Started"} marginTop={"mt-[40px]"}/>
 
           <div className="flex flex-col items-center mt-[30px]">
             <span className="text-[#898990]">We accept</span>
