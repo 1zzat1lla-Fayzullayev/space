@@ -115,3 +115,7 @@ body > #root {
     transform: translatey(100px);
   }
 }
+
+.group:hover svg path {
+  fill: black;
+}
