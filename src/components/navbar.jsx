@@ -34,16 +34,27 @@ const Navbar = () => {
                 Socials
               </p>
 
-              <ul className="social-drop flex flex-col z-20 absolute transition-all duration-300 ease-out">
-              <li>X</li>
-              <li>Telegram</li>
-              <li>Chat</li>
-              <li>Medium</li>
-              <li>Youtube</li>
-              <li>Linkedin</li>
-            </ul>
+              <ul className="social-drop opacity-0 group-hover:opacity-100 -translate-y-2 group-hover:translate-y-0 border border-solid rounded-[5px] py-[15px] min-w-[232px] bg-[#161617] border-[#CBFB45] flex flex-col z-20 absolute transition-all duration-300 ease-out">
+                <li className="text-[#f3f3f3] hover:text-[#CBFB45] hover:bg-[#232325] transition-all after:absolute after:w-1 after:left-0 after:top-0 after:bg-[#CBFB45] after:-translate-y-[110%] after:transition-transform cursor-pointer hover:after:!translate-y-0 after:h-full overflow-hidden relative font-Apfel text-[15px] py-[5px] px-[22px] font-normal">
+                  X
+                </li>
+                <li className="text-[#f3f3f3] hover:text-[#CBFB45] hover:bg-[#232325] transition-all after:absolute after:w-1 after:left-0 after:top-0 after:bg-[#CBFB45] after:-translate-y-[110%] after:transition-transform cursor-pointer hover:after:!translate-y-0 after:h-full overflow-hidden relative font-Apfel text-[15px] py-[5px] px-[22px] font-norma">
+                  Telegram
+                </li>
+                <li className="text-[#f3f3f3] hover:text-[#CBFB45] hover:bg-[#232325] transition-all after:absolute after:w-1 after:left-0 after:top-0 after:bg-[#CBFB45] after:-translate-y-[110%] after:transition-transform cursor-pointer hover:after:!translate-y-0 after:h-full overflow-hidden relative font-Apfel text-[15px] py-[5px] px-[22px] font-norma">
+                  Chat
+                </li>
+                <li className="text-[#f3f3f3] hover:text-[#CBFB45] hover:bg-[#232325] transition-all after:absolute after:w-1 after:left-0 after:top-0 after:bg-[#CBFB45] after:-translate-y-[110%] after:transition-transform cursor-pointer hover:after:!translate-y-0 after:h-full overflow-hidden relative font-Apfel text-[15px] py-[5px] px-[22px] font-norma">
+                  Medium
+                </li>
+                <li className="text-[#f3f3f3] hover:text-[#CBFB45] hover:bg-[#232325] transition-all after:absolute after:w-1 after:left-0 after:top-0 after:bg-[#CBFB45] after:-translate-y-[110%] after:transition-transform cursor-pointer  hover:after:!translate-y-0 after:h-full overflow-hidden relative font-Apfel text-[15px] py-[5px] px-[22px] font-norma">
+                  Youtube
+                </li>
+                <li className="text-[#f3f3f3] hover:text-[#CBFB45] hover:bg-[#232325] transition-all after:absolute after:w-1 after:left-0 after:top-0 after:bg-[#CBFB45] after:-translate-y-[110%] after:transition-transform cursor-pointer hover:after:!translate-y-0 after:h-full overflow-hidden relative font-Apfel text-[15px] py-[5px] px-[22px] font-norma">
+                  Linkedin
+                </li>
+              </ul>
             </li>
-           
           </div>
         </div>
 

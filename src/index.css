@@ -18,9 +18,8 @@ body > #root {
 
 @font-face {
   font-family: Neue;
-  src: url('../public/fonts/PPNeueMachina-Regular.woff2') format('woff2');
+  src: url("../public/fonts/PPNeueMachina-Regular.woff2") format("woff2");
 }
-
 
 #navItem {
   position: relative;
@@ -28,21 +27,21 @@ body > #root {
 }
 
 #navItem::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: 20px;
   width: 100%;
   height: 2px;
-  background-color: #B7E82E; 
+  background-color: #b7e82e;
   transform: scaleX(0);
-  transform-origin: right; 
+  transform-origin: right;
   transition: transform 0.3s ease-out;
 }
 
 #navItem:hover::before {
-  transform: scaleX(1); 
-  transform-origin: left; 
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
 .yellow_crypta {
