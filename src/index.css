@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background: #000;
+  background: #161617;
 }
 
 body > #root {
@@ -13,11 +13,82 @@ body > #root {
 
 @font-face {
   font-family: Apfel;
-  src: url('../public/fonts/ApfelGrotezk-Regular.woff2') format('woff2');
+  src: url("../public/fonts/ApfelGrotezk-Regular.woff2") format("woff2");
 }
-
 
 @font-face {
   font-family: Neue;
-  src: url('../public/fonts/PPNeueMachina-Regular.woff2') format('woff2');
+  src: url("../public/fonts/PPNeueMachina-Regular.woff2") format("woff2");
+}
+
+.yellow_crypta {
+  animation: YellowCrypta 5s linear infinite;
+  position: absolute;
+  left: 0%;
+  top: 5%;
+}
+
+@keyframes YellowCrypta {
+  0% {
+    transform: rotate(0deg) translate(-10%) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-10%) rotate(-360deg);
+  }
+}
+
+.green_crypta {
+  animation: GreenCrypta 5s linear infinite alternate;
+  position: absolute;
+}
+
+@keyframes GreenCrypta {
+  0% {
+    transform: translatex(0px);
+  }
+  100% {
+    transform: translatex(-100px);
+  }
+}
+
+.orange_crypta {
+  animation: OrangeCrypta 5s linear infinite alternate;
+  position: absolute;
+}
+
+@keyframes OrangeCrypta {
+  0% {
+    transform: translatey(0px);
+  }
+  100% {
+    transform: translatey(-50px);
+  }
+}
+
+.dark_green_crypta {
+  animation: DarkGreenCrypta 5s linear infinite alternate;
+  position: absolute;
+}
+
+@keyframes DarkGreenCrypta {
+  0% {
+    transform: translatex(0px);
+  }
+  100% {
+    transform: translatex(-100px);
+  }
+}
+
+.blue_crypta {
+  animation: BlueCrypta 5s linear infinite alternate;
+  position: absolute;
+}
+
+@keyframes BlueCrypta {
+  0% {
+    transform: translatey(0px);
+  }
+  100% {
+    transform: translatey(100px);
+  }
 }
