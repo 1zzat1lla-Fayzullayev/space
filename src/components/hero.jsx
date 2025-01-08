@@ -42,8 +42,26 @@ const Hero = () => {
             href="/shop"
             className="mt-6 bg-[#cbfb45] text-black text-[16px] py-[20px] px-[40px] font-[700] transition-all duration-300 font-Neue"
           >
-            Buy Now
+            Get Started
           </a>
+
+          <div className="flex flex-col items-center mt-[30px]">
+            <span className="text-[#898990]">We accept</span>
+            <div className="flex items-center gap-3">
+              <div className="px-[22px] py-[5px] rounded-[5px] bg-[#ffffff27]" style={{backdropFilter: "blur(5px)"}}>
+                <img src="/yellow_crypta.webp" className="w-[30px]" />
+              </div>
+              <div className="px-[22px] py-[5px] rounded-[5px] bg-[#ffffff27]" style={{backdropFilter: "blur(5px)"}}>
+                <img src="/blue_crypta.webp" className="w-[30px]" />
+              </div>
+              <div className="px-[22px] py-[5px] rounded-[5px] bg-[#ffffff27]" style={{backdropFilter: "blur(5px)"}}>
+                <img src="/green_crypta.webp" className="w-[30px]" />
+              </div>
+              <div className="px-[22px] py-[5px] rounded-[5px] bg-[#ffffff27]" style={{backdropFilter: "blur(5px)"}}>
+                <img src="/darkgreen_right_crypta.webp" className="w-[30px]" />
+              </div>
+            </div>
+          </div>
 
           <div className="pt-[50px] md:pt-[200px]">
             <img
