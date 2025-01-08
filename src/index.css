@@ -51,6 +51,10 @@ body > #root {
   top: 5%;
 }
 
+.transition-all2 {
+  transition: all .5s;
+}
+
 @keyframes YellowCrypta {
   0% {
     transform: rotate(0deg) translate(-10%) rotate(0deg);
