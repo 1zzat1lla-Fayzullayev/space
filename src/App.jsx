@@ -4,6 +4,7 @@ import Navbar from "./components/navbar";
 import NavMenu from "./shared/navMenu";
 import AboutNtf from "./components/aboutNtf";
 import Ecosystem from "./components/ecosystem";
+import MeetProduct from "./components/meetProduct";
 
 function App() {
   const [menu, setMenu] = useState(false);
@@ -19,6 +20,7 @@ function App() {
       <NavMenu menu={menu} handleOpenMenu={handleOpenMenu} />
       <AboutNtf />
       <Ecosystem />
+      <MeetProduct />
     </>
   );
 }

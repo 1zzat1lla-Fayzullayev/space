@@ -52,7 +52,7 @@ body > #root {
 }
 
 .transition-all2 {
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 @keyframes YellowCrypta {
@@ -124,7 +124,25 @@ body > #root {
   fill: black;
 }
 
-.group_active svg path{
+.meetGroup:hover svg path{
   fill: black;
+}
 
+.meetProduct:hover{
+  background-color: #b7e82e !important;
+}
+
+.group_active svg path {
+  fill: black;
+}
+
+.meetProduct {
+  display: inline-block;
+  border-radius: 100%;
+  transition: background 0.35s cubic-bezier(0.44, 0, 1, 1);
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(255, 255, 255, 0) 21.35%,
+    rgba(203, 251, 69, 0.08) 100%
+  );
 }
