@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Wrapper from "../layout/wrapper";
 import { useEffect } from "react";
+import EcosystemCard from "../shared/ecosystemCard";
 
 function Ecosystem() {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -36,7 +37,7 @@ function Ecosystem() {
       <div className="md:bg-transparent relative z-[88] bg-[#00000088] px-[20px] xl:px-0">
         <img
           src="/ecosystemBorderRight.svg"
-          className="absolute top-0 left-0"
+          className="absolute top-0 left-0 "
         />
         <img src="/purpleShadow.svg" className="absolute top-0 left-0" />
         <img
@@ -507,6 +508,10 @@ function Ecosystem() {
             </div>
           </div>
         </Wrapper>
+
+      <Wrapper>
+        <EcosystemCard />
+      </Wrapper>
       </div>
     </div>
   );
