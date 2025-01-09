@@ -119,3 +119,8 @@ body > #root {
 .group:hover svg path {
   fill: black;
 }
+
+.group_active svg path{
+  fill: black;
+
+}
