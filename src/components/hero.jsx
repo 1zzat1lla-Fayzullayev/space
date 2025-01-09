@@ -29,8 +29,8 @@ const Hero = () => {
             />
           </div>
 
-          <div className="mt-[50px] flex flex-col items-center justify-start">
-            <h1 className="text-4xl font-bold text-center mb-6 text-[30px] md:text-[56px] uppercase font-Neue">
+          <div className="md:mt-[50px] flex flex-col items-center justify-start">
+            <h1 className="text-4xl font-bold leading-[normal] text-center mb-6 text-[30px] md:text-[56px] uppercase font-Neue">
               Ultimate AI Trading Ecosystem
             </h1>
             <p className="text-[16px] text-center mb-4 text-[#cbfb45] uppercase font-Apfel">
@@ -42,18 +42,18 @@ const Hero = () => {
           <GreenButton buttonTitle={"Get Started"} marginTop={"mt-[40px]"}/>
 
           <div className="flex flex-col items-center mt-[30px]">
-            <span className="text-[#898990]">We accept</span>
+            <span className="text-[#898990] font-Neue mb-3">We accept</span>
             <div className="flex items-center gap-3">
-              <div className="px-[22px] py-[5px] rounded-[5px] bg-[#ffffff27]" style={{backdropFilter: "blur(5px)"}}>
+              <div className="px-4 md:px-[22px] py-[5px] rounded-[5px] bg-[#ffffff27]" style={{backdropFilter: "blur(5px)"}}>
                 <img src="/yellow_crypta.webp" className="w-[30px]" />
               </div>
-              <div className="px-[22px] py-[5px] rounded-[5px] bg-[#ffffff27]" style={{backdropFilter: "blur(5px)"}}>
+              <div className="px-4 md:px-[22px] py-[5px] rounded-[5px] bg-[#ffffff27]" style={{backdropFilter: "blur(5px)"}}>
                 <img src="/blue_crypta.webp" className="w-[30px]" />
               </div>
-              <div className="px-[22px] py-[5px] rounded-[5px] bg-[#ffffff27]" style={{backdropFilter: "blur(5px)"}}>
+              <div className="px-4 md:px-[22px] py-[5px] rounded-[5px] bg-[#ffffff27]" style={{backdropFilter: "blur(5px)"}}>
                 <img src="/green_crypta.webp" className="w-[30px]" />
               </div>
-              <div className="px-[22px] py-[5px] rounded-[5px] bg-[#ffffff27]" style={{backdropFilter: "blur(5px)"}}>
+              <div className="px-4 md:px-[22px] py-[5px] rounded-[5px] bg-[#ffffff27]" style={{backdropFilter: "blur(5px)"}}>
                 <img src="/darkgreen_right_crypta.webp" className="w-[30px]" />
               </div>
             </div>

@@ -22,7 +22,7 @@ function Ecosystem() {
     }
   }, []);
 
-  const texts = ["Test1", "Test2", "Test3", "Test4", "Test5", "Test6"];
+  const texts = ["Futures Signals", "Coin Analyzer", "Devs API", "Trading Bots", "Arbitrage Signals", "Full Nodes"];
 
   return (
     <div className="mt-[50px] relative mx-[20px] xl:mx-0">
@@ -47,14 +47,14 @@ function Ecosystem() {
         <div className="flex justify-center items-center mt-[80px]">
           <div className="md:w-[624px] h-[624px] border md:border-dashed md:border-[#898990] border-none relative rounded-[50%]">
             <div className="absolute left-0 right-0 bottom-0 top-0 mx-auto flex justify-center items-center h-full">
-              <h2 className="md:absolute">
+              <h2 className="md:absolute flex justify-center items-center">
                 <div
-                  className={`transition-all ease-in-out duration-500 ${
+                  className={`transition-all absolute ease-in-out duration-500 ${
                     activeIndex === 0 ? "opacity-100" : "opacity-0"
                   }`}
                 >
                   <p
-                    className={`mt-4 text-lg font-medium text-gray-700 transform transition-all ease-in-out duration-500 ${
+                    className={`text-center font-Neue text-[#fff] text-[21px] font-extrabold transform transition-all ease-in-out duration-500 ${
                       activeIndex === 0 ? "translate-y-0" : "translate-y-8"
                     }`}
                   >
@@ -63,12 +63,12 @@ function Ecosystem() {
                 </div>
 
                 <div
-                  className={`transition-all ease-in-out duration-500 ${
+                  className={`transition-all absolute ease-in-out duration-500 ${
                     activeIndex === 1 ? "opacity-100" : "opacity-0"
                   }`}
                 >
                   <p
-                    className={`mt-4 text-lg font-medium text-gray-700 transform transition-all ease-in-out duration-500 ${
+                    className={`text-center font-Neue text-[#fff] text-[21px] font-extrabold transform transition-all ease-in-out duration-500 ${
                       activeIndex === 1 ? "translate-y-0" : "translate-y-8"
                     }`}
                   >
@@ -77,12 +77,12 @@ function Ecosystem() {
                 </div>
 
                 <div
-                  className={`transition-all ease-in-out duration-500 ${
+                  className={`transition-all absolute ease-in-out duration-500 ${
                     activeIndex === 2 ? "opacity-100" : "opacity-0"
                   }`}
                 >
                   <p
-                    className={`mt-4 text-lg font-medium text-gray-700 transform transition-all ease-in-out duration-500 ${
+                    className={`text-center font-Neue text-[#fff] text-[21px] font-extrabold transform transition-all ease-in-out duration-500 ${
                       activeIndex === 2 ? "translate-y-0" : "translate-y-8"
                     }`}
                   >
@@ -91,12 +91,12 @@ function Ecosystem() {
                 </div>
 
                 <div
-                  className={`transition-all ease-in-out duration-500 ${
+                  className={`transition-all absolute ease-in-out duration-500 ${
                     activeIndex === 3 ? "opacity-100" : "opacity-0"
                   }`}
                 >
                   <p
-                    className={`mt-4 text-lg font-medium text-gray-700 transform transition-all ease-in-out duration-500 ${
+                    className={`text-center font-Neue text-[#fff] text-[21px] font-extrabold transform transition-all ease-in-out duration-500 ${
                       activeIndex === 3 ? "translate-y-0" : "translate-y-8"
                     }`}
                   >
@@ -105,12 +105,12 @@ function Ecosystem() {
                 </div>
 
                 <div
-                  className={`transition-all ease-in-out duration-500 ${
+                  className={`transition-all absolute ease-in-out duration-500 ${
                     activeIndex === 4 ? "opacity-100" : "opacity-0"
                   }`}
                 >
                   <p
-                    className={`mt-4 text-lg font-medium text-gray-700 transform transition-all ease-in-out duration-500 ${
+                    className={`text-center font-Neue text-[#fff] text-[21px] font-extrabold transform transition-all ease-in-out duration-500 ${
                       activeIndex === 4 ? "translate-y-0" : "translate-y-8"
                     }`}
                   >
@@ -119,12 +119,12 @@ function Ecosystem() {
                 </div>
 
                 <div
-                  className={`transition-all ease-in-out duration-500 ${
+                  className={`transition-all absolute ease-in-out duration-500 ${
                     activeIndex === 5 ? "opacity-100" : "opacity-0"
                   }`}
                 >
                   <p
-                    className={`mt-4 text-lg font-medium text-gray-700 transform transition-all ease-in-out duration-500 ${
+                    className={`text-center font-Neue text-[#fff] text-[21px] font-extrabold transform transition-all ease-in-out duration-500 ${
                       activeIndex === 5 ? "translate-y-0" : "translate-y-8"
                     }`}
                   >

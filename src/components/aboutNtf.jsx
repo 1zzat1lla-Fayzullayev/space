@@ -6,7 +6,7 @@ function AboutNtf() {
     <Wrapper>
       <div className="md:mt-[200px] mx-[20px] xl:mx-0">
         <div className="flex flex-col-reverse mt-[200px] md:flex-row items-center gap-[30px] md:gap-[50px] justify-between">
-          <div className="max-w-[600px] flex-shrink-0">
+          <div className="max-w-[600px] md:w-1/2 flex-shrink-0">
             <span className="text-[#cbfb45] uppercase tracking-[5.6px] font-Apfel">
               WHAT IS BLOCKEDGE?
             </span>
